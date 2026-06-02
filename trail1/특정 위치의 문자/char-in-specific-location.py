@@ -1,8 +1,7 @@
 N = input()
+arr = ['L', 'E', 'B', 'R', 'O', 'S']
 
-word = ['L', 'E', 'B', 'R', 'O', 'S']
-
-if N in word:
-    print(word.index(N))
-else:
+if N not in arr:
     print("None")
+else:
+    print(arr.index(N))
