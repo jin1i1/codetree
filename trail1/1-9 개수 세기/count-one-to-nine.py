@@ -1,12 +1,9 @@
 N = int(input())
 arr = list(map(int, input().split()))
+cnt_arr = [0] * 10
+
+for num in arr:
+    cnt_arr[num] += 1
 
 for i in range(1,10):
-    cnt = 0
-    for num in arr:
-        if num == i:
-            cnt += 1
-    
-    print(cnt)
-
-
+    print(cnt_arr[i])
