@@ -1,7 +1,6 @@
 N = int(input())
 arr = list(map(int, input().split()))
 cnt = 0
-idx = -1
 
 for i in range(len(arr)):
     if arr[i] == 2:
